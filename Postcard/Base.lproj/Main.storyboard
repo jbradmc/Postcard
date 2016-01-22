@@ -77,6 +77,16 @@
                                     <rect key="frame" x="20" y="72" width="282" height="45"/>
                                 </variation>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4iB-rh-d9a">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="125" width="170" height="53"/>
+                                </variation>
+                            </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Enter name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="obN-hV-rQW">
                                 <rect key="frame" x="-25" y="-30" width="97" height="30"/>
                                 <animations/>
@@ -115,6 +125,7 @@
                             <mask key="subviews">
                                 <exclude reference="5ZO-Hl-gvK"/>
                                 <exclude reference="DyZ-mC-xuJ"/>
+                                <exclude reference="4iB-rh-d9a"/>
                                 <exclude reference="obN-hV-rQW"/>
                                 <exclude reference="b0R-4h-cl7"/>
                                 <exclude reference="PuA-MR-vbJ"/>
@@ -124,6 +135,7 @@
                             <mask key="subviews">
                                 <include reference="5ZO-Hl-gvK"/>
                                 <include reference="DyZ-mC-xuJ"/>
+                                <include reference="4iB-rh-d9a"/>
                                 <include reference="obN-hV-rQW"/>
                                 <include reference="b0R-4h-cl7"/>
                                 <include reference="PuA-MR-vbJ"/>
@@ -134,6 +146,7 @@
                         <outlet property="enterMessageTextField" destination="b0R-4h-cl7" id="sLG-Rc-a9i"/>
                         <outlet property="enterNameTextField" destination="obN-hV-rQW" id="99L-bC-7eB"/>
                         <outlet property="messageLabel" destination="DyZ-mC-xuJ" id="rj8-lQ-xPU"/>
+                        <outlet property="nameLabel" destination="4iB-rh-d9a" id="lEm-qw-HCq"/>
                         <outlet property="sendMailButton" destination="PuA-MR-vbJ" id="4rq-SH-mTI"/>
                     </connections>
                 </viewController>
